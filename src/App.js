@@ -1,10 +1,9 @@
 import React from 'react';
+
+import Body from './Components/Body.js'
 import './App.css';
 
-let todos = [
-  "1",
-  "2"
-]
+
 
 let handleNavbarModalToggle = (event) => {
   event.preventDefault();
@@ -14,11 +13,7 @@ let handleNavbarModalToggle = (event) => {
   }else{modalStyle.display = "none"}
 }
 
-let handleTodoButtonClick = (event) => {
-  event.preventDefault();
-  todos.push("3")
-  console.log(todos);
-}
+
 
 function App() {
   return (
@@ -36,26 +31,10 @@ function App() {
       </div>
 
 
-      <div className="App-Body">
 
-        <div className="App-Body_Todos">
-          <button className="App-Body_Todos-Button"
-            onClick={handleTodoButtonClick}>addNew</button>
-          <ul>
-            this is my todo-list
-            {todos.map( element => <li  className="App-Body_Todos-Item">{element}</li> )}
-          </ul>
-        </div>
-        <div className="App-Body_Gallery">
-          <div className="App-Body_Gallery-Item">
-          </div>
-          <div className="App-Body_Gallery-Item">
-          </div>
-          <div className="App-Body_Gallery-Item">
-          </div>
-        </div>
 
-      </div>
+        <Body/>
+
 
 
 
