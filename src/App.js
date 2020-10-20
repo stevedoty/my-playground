@@ -1,8 +1,12 @@
 import React from 'react';
 import './App.css';
 
+let todos = [
+  "1",
+  "2"
+]
 
-let handleClick = (event) => {
+let handleNavbarModalToggle = (event) => {
   event.preventDefault();
   let modalStyle = document.querySelector('#App-Header_Navbar-Button_Modal').style
   if (modalStyle.display === "none"){
@@ -10,8 +14,10 @@ let handleClick = (event) => {
   }else{modalStyle.display = "none"}
 }
 
-let modalStyle = {
-  display:"block"
+let handleTodoButtonClick = (event) => {
+  event.preventDefault();
+  todos.push("3")
+  console.log(todos);
 }
 
 function App() {
@@ -22,8 +28,10 @@ function App() {
       <div className="App-Header">
         <div className="App-Header_Navbar">
           app navbar
-          <button className="App-Header_Navbar-Button" onClick={handleClick}>toggleModal</button>
-          <span id="App-Header_Navbar-Button_Modal" style={modalStyle}>Modal</span>
+          <button className="App-Header_Navbar-Button"
+            onClick={handleNavbarModalToggle}>toggleModal</button>
+          <span id="App-Header_Navbar-Button_Modal"
+            style={{display:"none"}}>Modal</span>
         </div>
       </div>
 
@@ -31,10 +39,11 @@ function App() {
       <div className="App-Body">
 
         <div className="App-Body_Todos">
-          
+          <button className="App-Body_Todos-Button"
+            onClick={handleTodoButtonClick}>addNew</button>
           <ul>
             this is my todo-list
-            <li  className="App-Body_Todos-Item">first item</li>
+            {todos.map( element => <li  className="App-Body_Todos-Item">{element}</li> )}
           </ul>
         </div>
         <div className="App-Body_Gallery">
