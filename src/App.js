@@ -30,6 +30,22 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="App-Body">
+        <div className="App-Body_Todos">
+          <ul>
+            this is my todo-list
+            <li  className="App-Body_Todos-Item">first item</li>
+          </ul>
+        </div>
+        <div className="App-Body_Gallery">
+          <div className="App-Body_Gallery-Item">
+          </div>
+          <div className="App-Body_Gallery-Item">
+          </div>
+          <div className="App-Body_Gallery-Item">
+          </div>
+        </div>
+      </div>
 
 
       <div className="App-Footer">
