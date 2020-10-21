@@ -22,10 +22,10 @@
   height: 100%;
   padding-top: 100px;
   padding-left: 5%;
-  padding-right: 5%; 
+  padding-right: 5%;
 }
 .App-Body_Todos {
-  width: 400px;
+    width: 90%;
   border: 2px blue dashed;
 }
 .App-Body_Todos-Item {

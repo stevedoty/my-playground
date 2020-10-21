@@ -3,21 +3,23 @@ import React from 'react';
 class Body extends React.Component {
   constructor(props){
     super(props);
-
+    this.state = {
+      todos : [
+        "1",
+        "2",
+        "2"
+      ]
+    }
     this.handleTodoButtonClick = this.handleTodoButtonClick.bind(this)
   }
-  todos = [
-    "1",
-    "2"
-  ]
+
   handleTodoButtonClick(event){
     event.preventDefault();
-    this.todos.push("3")
-    console.log(this.todos);
+    let newTodos = this.state.todos
+    newTodos.push("3")
+    this.setState({todos:newTodos})
   }
   render() {
-
-
 
     return (
     <div className="App-Body">
@@ -26,7 +28,7 @@ class Body extends React.Component {
           onClick={this.handleTodoButtonClick}>addNew</button>
         <ul>
           this is my todo-list
-          {this.todos.map( element => <li  className="App-Body_Todos-Item">{element}</li> )}
+          {this.state.todos.map( element => <li  className="App-Body_Todos-Item">{element}</li> )}
         </ul>
       </div>
       <div className="App-Body_Gallery">
