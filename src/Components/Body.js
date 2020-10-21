@@ -27,8 +27,9 @@ class Body extends React.Component {
 
   handleMessengerButtonClick(event){
     event.preventDefault();
+    let inputValue = document.querySelector('#App-Body_Messenger-Input').value
     let newMessages = this.state.messages
-    newMessages.push("hi")
+    newMessages.push(inputValue)
     this.setState({messages:newMessages})
   }
 
@@ -37,25 +38,24 @@ class Body extends React.Component {
     return (
     <div className="App-Body">
       <div className="App-Body_Todos">
-        this is my todo-list
-        <button className="App-Body_Todos-Button"
-          onClick={this.handleTodoButtonClick}>addNew</button>
-        <ul>
         <div  className="App-Body_Todos-Title">
           this is my Todos
         </div>
+        <button className="App-Body_Todos-Button"
+          onClick={this.handleTodoButtonClick}>addNew</button>
+        <ul>
           {this.state.todos.map( element => <div  className="App-Body_Todos-Item">{element}</div> )}
         </ul>
       </div>
 
       <div className="App-Body_Messenger">
-        this is my todo-list
-        <button className="App-Body_Messenger-Button"
-          onClick={this.handleMessengerButtonClick}>sendMessage</button>
-        <ul>
         <div  className="App-Body_Messenger-Title">
           this is my Messenger
         </div>
+        <input id="App-Body_Messenger-Input"/>
+        <button className="App-Body_Messenger-Button"
+          onClick={this.handleMessengerButtonClick}>sendMessage</button>
+        <ul>
           {this.state.messages.map( element => <div  className="App-Body_Messenger-Item">{element}</div> )}
         </ul>
       </div>
