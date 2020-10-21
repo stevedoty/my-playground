@@ -5,9 +5,9 @@ class Body extends React.Component {
     super(props);
     this.state = {
       todos : [
-        "1",
-        "2",
-        "2"
+        "hi",
+        "hello",
+        "how are you"
       ]
     }
     this.handleTodoButtonClick = this.handleTodoButtonClick.bind(this)
@@ -24,14 +24,25 @@ class Body extends React.Component {
     return (
     <div className="App-Body">
       <div className="App-Body_Todos">
+        this is my todo-list
         <button className="App-Body_Todos-Button"
           onClick={this.handleTodoButtonClick}>addNew</button>
         <ul>
           this is my todo-list
-          {this.state.todos.map( element => <li  className="App-Body_Todos-Item">{element}</li> )}
+          {this.state.todos.map( element => <div  className="App-Body_Todos-Item">{element}</div> )}
         </ul>
       </div>
       <div className="App-Body_Gallery">
+        this is my gallery
+        <div className="App-Body_Gallery-Item">
+        </div>
+        <div className="App-Body_Gallery-Item">
+        </div>
+        <div className="App-Body_Gallery-Item">
+        </div>
+      </div>
+      <div className="App-Body_Gallery">
+        this is my gallery
         <div className="App-Body_Gallery-Item">
         </div>
         <div className="App-Body_Gallery-Item">

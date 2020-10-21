@@ -29,7 +29,14 @@
   border: 2px blue dashed;
 }
 .App-Body_Todos-Item {
+  color: white;
+  height: 40px;
+  width: 50%;
   text-align: left;
+  background-color: blue;
+  border-radius: 20px 20px 20px 0;
+  margin: 2px;
+  padding: 5%;
 }
 .App-Body_Gallery {
   float: left;
