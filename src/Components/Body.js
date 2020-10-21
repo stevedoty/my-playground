@@ -44,7 +44,9 @@ class Body extends React.Component {
       </div>
 
       <div className="App-Body_Gallery">
-        this is my gallery
+        <div  className="App-Body_Gallery-Title">
+          this is my gallery
+        </div>
         <div className="App-Body_Gallery-Item">
         </div>
         <div className="App-Body_Gallery-Item">
