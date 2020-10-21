@@ -32,15 +32,17 @@ class Body extends React.Component {
           {this.state.todos.map( element => <div  className="App-Body_Todos-Item">{element}</div> )}
         </ul>
       </div>
-      <div className="App-Body_Gallery">
-        this is my gallery
-        <div className="App-Body_Gallery-Item">
-        </div>
-        <div className="App-Body_Gallery-Item">
-        </div>
-        <div className="App-Body_Gallery-Item">
-        </div>
+
+      <div className="App-Body_Messenger">
+        this is my todo-list
+        <button className="App-Body_Messenger-Button"
+          onClick={this.handleTodoButtonClick}>addNew</button>
+        <ul>
+          this is my messenger
+          {this.state.todos.map( element => <div  className="App-Body_Messenger-Item">{element}</div> )}
+        </ul>
       </div>
+
       <div className="App-Body_Gallery">
         this is my gallery
         <div className="App-Body_Gallery-Item">
