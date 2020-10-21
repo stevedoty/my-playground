@@ -8,9 +8,14 @@ class Body extends React.Component {
         "hi",
         "hello",
         "how are you"
+      ],
+      messages : [
+        "my name is ...",
+        "how's it going?",
       ]
     }
     this.handleTodoButtonClick = this.handleTodoButtonClick.bind(this)
+    this.handleMessengerButtonClick = this.handleMessengerButtonClick.bind(this)
   }
 
   handleTodoButtonClick(event){
@@ -19,6 +24,14 @@ class Body extends React.Component {
     newTodos.push("3")
     this.setState({todos:newTodos})
   }
+
+  handleMessengerButtonClick(event){
+    event.preventDefault();
+    let newMessages = this.state.messages
+    newMessages.push("hi")
+    this.setState({messages:newMessages})
+  }
+
   render() {
 
     return (
@@ -28,7 +41,9 @@ class Body extends React.Component {
         <button className="App-Body_Todos-Button"
           onClick={this.handleTodoButtonClick}>addNew</button>
         <ul>
-          this is my todo-list
+        <div  className="App-Body_Todos-Title">
+          this is my Todos
+        </div>
           {this.state.todos.map( element => <div  className="App-Body_Todos-Item">{element}</div> )}
         </ul>
       </div>
@@ -36,10 +51,12 @@ class Body extends React.Component {
       <div className="App-Body_Messenger">
         this is my todo-list
         <button className="App-Body_Messenger-Button"
-          onClick={this.handleTodoButtonClick}>addNew</button>
+          onClick={this.handleMessengerButtonClick}>sendMessage</button>
         <ul>
-          this is my messenger
-          {this.state.todos.map( element => <div  className="App-Body_Messenger-Item">{element}</div> )}
+        <div  className="App-Body_Messenger-Title">
+          this is my Messenger
+        </div>
+          {this.state.messages.map( element => <div  className="App-Body_Messenger-Item">{element}</div> )}
         </ul>
       </div>
 
