@@ -29,8 +29,10 @@ class Body extends React.Component {
     event.preventDefault();
     //querySelector.value
     //find index of list by value
-    console.log(event.target.parentNode.firstChild.innerText);
     let newTodos = this.state.todos.slice()
+    let selectedTodoItem = newTodos.indexOf(event.target.parentNode.firstChild.innerText)
+    newTodos.splice(selectedTodoItem, 1)
+    this.setState({todos: newTodos})
   }
 
   handleMessengerButtonClick(event){
