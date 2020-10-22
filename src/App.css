@@ -27,7 +27,6 @@
   padding-right: 5%;
 }
 .App-Body_Todos {
-    width: 90%;
   border: 2px blue dashed;
 }
 .App-Body_Todos-Item {
@@ -49,7 +48,7 @@
 }
 
 .App-Body_Messenger {
-  width: 90%;
+
   border: 2px blue dashed;
 }
 .App-Body_Messenger-Item {
@@ -63,23 +62,43 @@
   padding: 5%;
 }
 
-.App-Body_Gallery {
-  overflow: auto;
-  width: 90%;
-  border: 2px blue dashed;
-}
-.App-Body_Gallery-Title{
-  width: 100%;
-}
-.App-Body_Gallery-Item {
-  float: left;
-  padding: 1%;
-  width: 47%;
-  height: 200px;
-  border: 2px red dashed;
+.App-Body_HolyGrailLayout {
+  text-align: center;
 }
 
-
+.App-Body_HolyGrailLayout .grid{
+  display: grid;
+  grid-template-columns: 150px auto 150px;
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 1em;
+}
+.App-Body_HolyGrailLayout
+  header,
+  aside,
+  article,
+  footer {
+    background-color: grey;
+  }
+.App-Body_HolyGrailLayout header {
+  grid-row: 1;
+  grid-column: 1/4;
+}
+.App-Body_HolyGrailLayout .sidebar-left {
+  grid-row: 2;
+  grid-column: 1/2;
+}
+.App-Body_HolyGrailLayout article {
+  grid-row: 2;
+  grid-column: 2/3;
+}
+.App-Body_HolyGrailLayout .sidebar-right {
+  grid-row: 2;
+  grid-column: 3/4;
+}
+.App-Body_HolyGrailLayout  footer{
+  grid-row: 3;
+  grid-column: 1/4;
+}
 
 
 .App-Footer {
@@ -90,10 +109,4 @@
   position: fixed;
   top: 100%;
   transform: translate(0,-100%);
-}
-.App-Body {
-  text-align: center;
-}
-.App-Body {
-  text-align: center;
 }

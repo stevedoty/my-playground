@@ -81,15 +81,27 @@ class Body extends React.Component {
         </ul>
       </div>
 
-      <div className="App-Body_Gallery">
-        <div  className="App-Body_Gallery-Title">
-          this is my gallery
-        </div>
-        <div className="App-Body_Gallery-Item">
-        </div>
-        <div className="App-Body_Gallery-Item">
-        </div>
-        <div className="App-Body_Gallery-Item">
+      <div className="App-Body_HolyGrailLayout">
+        <div className="grid">
+          <header>
+            Header
+          </header>
+
+          <aside className="sidebar-left">
+            Left Sidebar
+          </aside>
+
+          <article>
+            Article
+          </article>
+
+          <aside className="sidebar-right">
+            Rigth Sidebar
+          </aside>
+
+          <footer>
+            Footer
+          </footer>
         </div>
       </div>
     </div>
