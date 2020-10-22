@@ -31,14 +31,21 @@
   border: 2px blue dashed;
 }
 .App-Body_Todos-Item {
-  color: white;
-  height: 40px;
   width: 50%;
-  text-align: left;
+  position: relative;
+  color: white;
   background-color: red;
   border-radius: 20px;
   margin: 2px;
+}
+.App-Body_Todos-Item_Text {
   padding: 2%;
+  height: 40px;
+}
+.App-Body_Todos-Item_Delete {
+  position: absolute;
+  top: 0;
+  right: 0%;
 }
 
 .App-Body_Messenger {

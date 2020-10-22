@@ -5,7 +5,7 @@ class Body extends React.Component {
     super(props);
     this.state = {
       todos : [
-        "hi",
+        "on click, add object to list/server/db",
         "hello",
         "how are you"
       ],
@@ -14,23 +14,32 @@ class Body extends React.Component {
         "how's it going?",
       ]
     }
-    this.handleTodoButtonClick = this.handleTodoButtonClick.bind(this)
+    this.handleTodoAddNewButtonClick = this.handleTodoAddNewButtonClick.bind(this)
+    this.handleTodoDeleteButtonClick = this.handleTodoDeleteButtonClick.bind(this)
     this.handleMessengerButtonClick = this.handleMessengerButtonClick.bind(this)
   }
 
-  handleTodoButtonClick(event){
+  handleTodoAddNewButtonClick(event){
     event.preventDefault();
-    let newTodos = this.state.todos
+    let newTodos = this.state.todos.slice()
     newTodos.push("3")
     this.setState({todos:newTodos})
+  }
+  handleTodoDeleteButtonClick(event){
+    event.preventDefault();
+    //querySelector.value
+    //find index of list by value
+    console.log(event.target.parentNode.firstChild.innerText);
+    let newTodos = this.state.todos.slice()
   }
 
   handleMessengerButtonClick(event){
     event.preventDefault();
     let inputValue = document.querySelector('#App-Body_Messenger-Input').value
-    let newMessages = this.state.messages
+    let newMessages = this.state.messages.slice()
     newMessages.push(inputValue)
     this.setState({messages:newMessages})
+    document.querySelector('#App-Body_Messenger-Input').value = ""
   }
 
   render() {
@@ -42,9 +51,17 @@ class Body extends React.Component {
           this is my Todos
         </div>
         <button className="App-Body_Todos-Button"
-          onClick={this.handleTodoButtonClick}>addNew</button>
+          onClick={this.handleTodoAddNewButtonClick}>New</button>
         <ul>
-          {this.state.todos.map( element => <div  className="App-Body_Todos-Item">{element}</div> )}
+          {this.state.todos.map( (element, i) => (
+            <div id={`hello${i}`} className="App-Body_Todos-Item" key={i}>
+              <div className="App-Body_Todos-Item_Text">
+                {element}
+              </div>
+              <button className="App-Body_Todos-Item_Delete"
+                onClick={this.handleTodoDeleteButtonClick}>Delete</button>
+            </div>
+          ))}
         </ul>
       </div>
 
@@ -56,7 +73,9 @@ class Body extends React.Component {
         <button className="App-Body_Messenger-Button"
           onClick={this.handleMessengerButtonClick}>sendMessage</button>
         <ul>
-          {this.state.messages.map( element => <div  className="App-Body_Messenger-Item">{element}</div> )}
+          {this.state.messages.map( element => (
+            <div  className="App-Body_Messenger-Item">{element}</div>
+          ))}
         </ul>
       </div>
 
