@@ -64,12 +64,13 @@
 
 .App-Body_HolyGrailLayout {
   text-align: center;
+  margin-top: 5em;
 }
 
 .App-Body_HolyGrailLayout .grid{
   display: grid;
   grid-template-columns: 150px auto 150px;
-  grid-template-rows: repeat(3, 100px);
+  grid-template-rows: repeat(3, 300px);
   grid-gap: 1em;
 }
 .App-Body_HolyGrailLayout

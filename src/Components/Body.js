@@ -1,4 +1,5 @@
 import React from 'react';
+import SimpleMap from './Map.js'
 
 class Body extends React.Component {
   constructor(props){
@@ -124,6 +125,7 @@ class Body extends React.Component {
 
       <div style={{height:"500px"}}>
         Map
+        <SimpleMap/>
       </div>
 
       <h1>Calendar</h1>
