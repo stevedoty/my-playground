@@ -1,3 +1,5 @@
+//https://www.npmjs.com/package/react-calendar
+//https://www.npmjs.com/package/react-schedule-calendar
 import React from 'react';
 
 class Calendar extends React.Component {
@@ -6,10 +8,205 @@ class Calendar extends React.Component {
     this.state = {
       calendar : [
         {
-          event:"event title",
+          event:"EVENT TITLE",
           date:"Jan 1, 2021",
           image:"./logo512.png"
-        }
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
+        {
+          event:"EVENT TITLE",
+          date:"Jan 1, 2021",
+          image:"./logo512.png"
+        },
       ]
     }
   }
@@ -21,239 +218,16 @@ render() {
       <h1>Calendar</h1>
       <div className="App-Body_Calendar"
         style={{border:"1px solid blue"}}>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image}
-            style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image} style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image} style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image} style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image} style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image} style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image} style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image} style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image} style={{height:"50px"}}/>
-        </div>
-        <div className="App-Body_Calendar-Day">
-          <h3>{this.state.calendar[0].event}</h3>
-          <h4>{this.state.calendar[0].date}</h4>
-          <img src={this.state.calendar[0].image} style={{height:"50px"}}/>
-        </div>
+        {this.state.calendar.map((day, i) => {
+          return <div className="App-Body_Calendar-Day">
+            <h3>{day.event}</h3>
+            <h4>{day.date}</h4>
+            <img src={day.image}
+              style={{height:"50px"}}/>
+          </div>
+        })}
       </div>
-      
+
     </div>
     );
   }

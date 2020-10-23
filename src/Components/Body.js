@@ -17,13 +17,7 @@ class Body extends React.Component {
         "connect to server",
         "how's it going?",
       ],
-      calendar : [
-        {
-          event:"event title",
-          date:"Jan 1, 2021",
-          image:"./logo512.png"
-        }
-      ]
+      
     }
     this.handleTodoAddNewButtonClick = this.handleTodoAddNewButtonClick.bind(this)
     this.handleTodoDeleteButtonClick = this.handleTodoDeleteButtonClick.bind(this)
