@@ -104,6 +104,8 @@
   margin-bottom: 5em;
   padding-left: 1em;
   padding-top: 1em;
+  border-radius: 1em;
+  background-color: lightblue;
 
   display: grid;
   grid-template-columns: repeat(7, calc(100% / 7 - 1em));
@@ -111,8 +113,8 @@
   grid-gap: 1em;
 }
 .App-Body_Calendar-Day{
-  background-color: grey;
-  border-radius: 1em;
+  background-color: white;
+  border-radius: 0.5em;
 }
 
 .App-Footer {
