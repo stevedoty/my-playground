@@ -4,6 +4,7 @@
 
 
 .App-Header {
+  z-index: 1;
   background-color: red;
   height: 50px;
   color: white;
