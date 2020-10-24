@@ -103,15 +103,17 @@
   grid-column: 1/4;
 }
 .App-Body_Calendar-Container{
+  height: 800px;
   margin-top: 5em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .App-Body_MyCalendar {
-  zoom: 200%;
+  transition: transform .5s ease;
 }
 .App-Body_MyCalendar:hover {
+  transform: scale(2.5);
   border-color: white;
   box-shadow: 0 0 0 2px lightblue;
   transition: all 200ms ease-out;
