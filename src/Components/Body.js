@@ -1,6 +1,6 @@
 import React from 'react';
 import SimpleMap from './Map.js'
-import Calendar from './Calendar.js'
+import MyCalendar from './Calendar.js'
 
 class Body extends React.Component {
   constructor(props){
@@ -15,9 +15,9 @@ class Body extends React.Component {
       videoFiles : [],
       messages : [
         "connect to server",
-        "how's it going?",
+        "add timestamp",
       ],
-      
+
     }
     this.handleTodoAddNewButtonClick = this.handleTodoAddNewButtonClick.bind(this)
     this.handleTodoDeleteButtonClick = this.handleTodoDeleteButtonClick.bind(this)
@@ -123,7 +123,7 @@ class Body extends React.Component {
         <SimpleMap/>
       </div>
 
-      <Calendar/>
+      <MyCalendar/>
     </div>
     );
   }
