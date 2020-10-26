@@ -72,11 +72,11 @@ class Body extends React.Component {
         </ul>
       </div>
 
-      <div style={{height:"500px"}}>
+      <div className="App-Body_AudioFiles">
         Audio Files
       </div>
 
-      <div style={{height:"500px"}}>
+      <div className="App-Body_VideoFiles">
         Videos
       </div>
 

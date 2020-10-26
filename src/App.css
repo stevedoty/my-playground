@@ -4,7 +4,7 @@
 
 
 .App-Header {
-  z-index: 1;
+  z-index: 2;
   background-color: red;
   height: 50px;
   color: white;
@@ -47,6 +47,20 @@
   position: absolute;
   top: 0;
   right: 0%;
+}
+
+.App-Body_AudioFiles {
+  height: 500px;
+  border: 1px dashed black;
+  border-radius: 2em;
+  margin: 1em 0;
+}
+
+.App-Body_VideoFiles {
+  height: 500px;
+  border: 1px dashed black;
+  border-radius: 2em;
+  margin: 1em 0;
 }
 
 .App-Body_Messenger {
