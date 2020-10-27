@@ -22,7 +22,7 @@ class Parallax extends Component {
           </div>
           <div className="parallax__layer parallax__layer--back">
             <div className="title">
-              back layer
+              background layer
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@ class Parallax extends Component {
         <div id="group3" className="parallax__group">
           <div className="parallax__layer parallax__layer--fore">
             <div className="title">
-              fore layer
+              foreground layer
             </div>
           </div>
           <div className="parallax__layer parallax__layer--base">
@@ -54,7 +54,7 @@ class Parallax extends Component {
           </div>
           <div className="parallax__layer parallax__layer--deep">
             <div className="title">
-              deep layer
+              deep background layer
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ class Parallax extends Component {
         <div id="group5" className="parallax__group">
           <div className="parallax__layer parallax__layer--fore">
             <div className="title">
-              fore layer
+              foreground layer
             </div>
           </div>
           <div className="parallax__layer parallax__layer--base">
@@ -76,7 +76,7 @@ class Parallax extends Component {
         <div id="group6" className="parallax__group">
           <div className="parallax__layer parallax__layer--back">
             <div className="title">
-              back layer
+              background layer
             </div>
           </div>
           <div className="parallax__layer parallax__layer--base">
