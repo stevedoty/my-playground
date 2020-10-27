@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Body from './Components/Body.js'
+import Parallax from './Components/Parallax.js'
 import './App.css';
 
 
@@ -35,7 +36,7 @@ function App() {
 
         <Body/>
 
-
+        <Parallax/>
 
 
       <div className="App-Footer">

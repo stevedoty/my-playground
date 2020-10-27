@@ -2,6 +2,7 @@ import React from 'react';
 import SimpleMap from './Map.js'
 import MyCalendar from './Calendar.js'
 
+
 class Body extends React.Component {
   constructor(props){
     super(props);
@@ -119,11 +120,16 @@ class Body extends React.Component {
       </div>
 
       <div style={{height:"500px"}}>
-        Map
+        MAP⬇️
         <SimpleMap/>
       </div>
 
+      CALENDAR⬇️
       <MyCalendar/>
+
+      PARALLAX⬇️
+
+
     </div>
     );
   }

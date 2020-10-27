@@ -250,6 +250,7 @@ class MyCalendar extends Component {
   render() {
     return (
       <div className="App-Body_Calendar-Container">
+
         <Calendar
           className="App-Body_MyCalendar"
           onChange={this.onChange}

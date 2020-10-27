@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-
+/*HEADER*/
 .App-Header {
   z-index: 2;
   background-color: red;
@@ -19,7 +19,7 @@
 
 
 
-
+/*BODY*/
 .App-Body {
   width: 90%;
   height: 100%;
@@ -28,6 +28,7 @@
   padding-right: 5%;
   padding-bottom: 100px;
 }
+  /*TODOS*/
 .App-Body_Todos {
   border: 2px blue dashed;
 }
@@ -48,21 +49,21 @@
   top: 0;
   right: 0%;
 }
-
+  /*AUDIO*/
 .App-Body_AudioFiles {
   height: 500px;
   border: 1px dashed black;
   border-radius: 2em;
   margin: 1em 0;
 }
-
+  /*VIDEO*/
 .App-Body_VideoFiles {
   height: 500px;
   border: 1px dashed black;
   border-radius: 2em;
   margin: 1em 0;
 }
-
+  /*MESSANGER*/
 .App-Body_Messenger {
 
   border: 2px blue dashed;
@@ -77,7 +78,7 @@
   margin: 5px;
   padding: 5%;
 }
-
+  /*HOLYGRAIL*/
 .App-Body_HolyGrailLayout {
   text-align: center;
   margin-top: 5em;
@@ -116,6 +117,7 @@
   grid-row: 3;
   grid-column: 1/4;
 }
+/*CALENDAR*/
 .App-Body_Calendar-Container{
   height: 800px;
   margin-top: 5em;
@@ -155,6 +157,79 @@
   border-radius: 0.5em;
 }
 
+/*PARALLAX*/
+/*
+rgb(102,204,102)
+rgb(123,210,102)
+rgb(153,216,101)
+rgb(184,223,101)
+rgb(214,229,100)
+rgb(245,235,100)
+rgb(255,241,100)
+ */
+
+.parallax {
+  display: block;
+  font-size: 250%;
+  /* perspective: 300px; */
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax #group1 {
+  z-index: 5;
+}
+.parallax #group2 {
+  z-index: 3;
+}
+.parallax #group3 {
+  z-index: 4;
+}
+.parallax #group4 {
+  z-index: 2;
+}
+.parallax #group5 {
+  z-index: 3;
+}
+.parallax #group6 {
+  z-index: 2;
+}
+.parallax #group7 {
+  z-index: 3;
+}
+
+
+.parallax__group {
+  transition: transform 0.5s;
+  position: relative;
+  transform-style: preserve-3d;
+
+}
+.parallax__layer {
+  background-color: rgba(50,50,50,0.25);
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}
+.parallax__layer--deep {
+  transform: translateZ(-2px) scale(3);
+}
+
+
+/*FOOTER*/
 .App-Footer {
   color: white;
   background-color: blue;
