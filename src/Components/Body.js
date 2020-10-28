@@ -1,4 +1,6 @@
 import React from 'react';
+
+import Gallery from './Gallery.js'
 import SimpleMap from './Map.js'
 import MyCalendar from './Calendar.js'
 
@@ -54,6 +56,9 @@ class Body extends React.Component {
 
     return (
     <div className="App-Body">
+
+      <Gallery/>
+
       <div className="App-Body_Todos">
         <div  className="App-Body_Todos-Title">
           Todos
@@ -127,7 +132,7 @@ class Body extends React.Component {
       CALENDAR⬇️
       <MyCalendar/>
 
-      
+
 
 
     </div>
