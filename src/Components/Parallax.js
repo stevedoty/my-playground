@@ -6,6 +6,9 @@ class Parallax extends Component {
     return (
       <div className="parallax">
 
+      <p style={{fontSize:"0.5em"}}>PARALLAX⬇️</p>
+      <p style={{fontSize:"0.5em"}}>be sure zoom is 100% to see effect</p>
+
         <div id="group1" className="parallax__group">
           <div className="parallax__layer parallax__layer--base">
             <div className="title">

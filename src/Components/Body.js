@@ -127,7 +127,7 @@ class Body extends React.Component {
       CALENDAR⬇️
       <MyCalendar/>
 
-      PARALLAX⬇️
+      
 
 
     </div>
