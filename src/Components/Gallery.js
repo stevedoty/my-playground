@@ -20,71 +20,74 @@ constructor(props){
 
   render() {
     return (
-      <div className="Gallery">
-        <div
-          style={{
-            position:"relative",
-            height:"400px",
-            overflow: "hidden"}}>
+      <div className="Gallery"
+        style={{display:"grid", gridTemplateColumns:"6",height:"500px",width:"10500px",backgroundColor:"grey",zIndex:"0"}}
+      >
+
+
         <img src={starscape}
           style={{
-            position:"absolute",
-            transform: "translate(-50%,-50%) scale(0.3)",
-            top:"50%",
-            left:"50%"}}/>
-        </div>
-
-        <div
-          style={{
-            position:"relative",
             height:"400px",
-            overflow: "hidden"}}>
+            width:"400px",
+            float:"left",
+
+            display:"block",
+
+            zIndex:"1"
+          }}/>
+
+
+
         <img src={springBlossoms}
           style={{
-            position:"absolute",
-            transform: "translate(-50%,-50%) scale(0.3)",
-            top:"50%",
-            left:"50%"}}/>
-        </div>
+            height:"400px",
+            width:"400px",
+            float:"left",
 
-        <div
-          style={{
-            position:"relative",
-            height:"400px"
-            }}>
+            display:"block",
+
+            zIndex:"2"
+          }}/>
+
+
+
         <img src={summerClovers}
           style={{
-            position:"absolute",
-            transform: "translate(-50%,-50%) scale(0.25)",
-            top:"50%",
-            left:"50%"}}/>
-        </div>
-
-        <div
-          style={{
-            position:"relative",
             height:"400px",
-            overflow: "hidden"}}>
+            width:"400px",
+            float:"left",
+
+            display:"block",
+
+            zIndex:"3"
+          }}/>
+
+
+
         <img src={autumnTrees}
           style={{
-            position:"absolute",
-            transform: "translate(-50%,-50%) scale(0.3)",
-            top:"50%",
-            left:"50%"}}/>
-        </div>
-
-        <div
-          style={{
-            position:"relative",
             height:"400px",
-            overflow: "hidden"}}>
+            width:"400px",
+            float:"left",
+
+            display:"block",
+
+            zIndex:"4"
+          }}/>
+
+
+
         <img src={winterIce}
           style={{
-            position:"absolute",
-            transform: "translate(-50%,-50%) scale(0.3)",
-            top:"50%",
-            left:"50%"}}/>
-        </div>
+            height:"400px",
+            width:"400px",
+            float:"left",
+
+            display:"block",
+
+            zIndex:"5"
+          }}/>
+
 
 
 
