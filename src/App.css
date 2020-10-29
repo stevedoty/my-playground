@@ -28,6 +28,12 @@
   padding-right: 5%;
   padding-bottom: 100px;
 }
+.Gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 500px);
+  grid-template-rows: repeat(1, 600px);
+  grid-gap: 1em;
+}
   /*TODOS*/
 .App-Body_Todos {
   border: 2px blue dashed;
