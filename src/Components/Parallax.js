@@ -43,7 +43,7 @@ handleViewerClick(event){
 
       <p style={{fontSize:"0.5em"}}>PARALLAX⬇️</p>
       <p style={{fontSize:"0.5em"}}>be sure zoom is 100% to see effect</p>
-      <button onClick={this.handleViewerClick}>click</button>
+      <button onClick={this.handleViewerClick}>DemoMode</button>
 
         <div id="group1" className="parallax__group" style={this.state.parallaxStyleToggle}>
           <div className="parallax__layer parallax__layer--base">
