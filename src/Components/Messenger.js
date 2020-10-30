@@ -51,12 +51,12 @@ class Messenger extends Component {
           <input id="App-Body_Messenger-Input"/>
           <button className="App-Body_Messenger-Button"
             onClick={this.handleMessengerButtonClick}>sendMessage</button>
-          <div className="Messenger_UserProfile">
-          <div className="User_Name">name:{this.state.users[0].name}</div>
-          <div className="User_Picture">picture:{this.state.users[0].picture}</div>
-          <div className="User_Number">number:{this.state.users[0].number[0]}</div>
-          <div className="User_Email">email:{this.state.users[0].email[0]}</div>
-          <div className="User_Social">social:{this.state.users[0].social[0]}</div>
+          <div className="Messenger_UserProfile" style={{textAlign:"left",marginLeft:"30%"}}>
+          <div className="User_Name">name:  {this.state.users[0].name}</div>
+          <div className="User_Picture">picture:  {this.state.users[0].picture}</div>
+          <div className="User_Number">number:  {this.state.users[0].number[0]}</div>
+          <div className="User_Email">email:  {this.state.users[0].email[0]}</div>
+          <div className="User_Social">social:  {this.state.users[0].social[0]}</div>
           </div>
           <div className="Messenger_Conversation-Title" style={{textAlign:"left",marginLeft:"5em"}}>Conversation</div>
           <ul>

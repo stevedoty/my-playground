@@ -32,11 +32,15 @@
   padding-right: 5%;
   padding-bottom: 100px;
 }
+/*GALLERY*/
 .Gallery {
   display: grid;
   grid-template-columns: repeat(5, 500px);
   grid-template-rows: repeat(1, 600px);
   grid-gap: 1em;
+}
+.Gallery_Item {
+
 }
   /*TODOS*/
 .App-Body_Todos {
@@ -62,14 +66,14 @@
 }
   /*AUDIO*/
 .App-Body_AudioFiles {
-  height: 500px;
+  height: 300px;
   border: 1px dashed black;
   border-radius: 2em;
   margin: 1em 0;
 }
   /*VIDEO*/
 .App-Body_VideoFiles {
-  height: 500px;
+  height: 300px;
   border: 1px dashed black;
   border-radius: 2em;
   margin: 1em 0;
