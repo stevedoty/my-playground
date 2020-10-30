@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Gallery from './Gallery.js'
+import Messenger from './Messenger'
 import SimpleMap from './Map.js'
 import MyCalendar from './Calendar.js'
 
@@ -16,15 +17,9 @@ class Body extends React.Component {
       ],
       audioFiles : [],
       videoFiles : [],
-      messages : [
-        "connect to server",
-        "add timestamp",
-      ],
-
     }
     this.handleTodoAddNewButtonClick = this.handleTodoAddNewButtonClick.bind(this)
     this.handleTodoDeleteButtonClick = this.handleTodoDeleteButtonClick.bind(this)
-    this.handleMessengerButtonClick = this.handleMessengerButtonClick.bind(this)
   }
 
   handleTodoAddNewButtonClick(event){
@@ -43,14 +38,6 @@ class Body extends React.Component {
     this.setState({todos: newTodos})
   }
 
-  handleMessengerButtonClick(event){
-    event.preventDefault();
-    let inputValue = document.querySelector('#App-Body_Messenger-Input').value
-    let newMessages = this.state.messages.slice()
-    newMessages.push(inputValue)
-    this.setState({messages:newMessages})
-    document.querySelector('#App-Body_Messenger-Input').value = ""
-  }
 
   render() {
 
@@ -86,19 +73,7 @@ class Body extends React.Component {
         Videos
       </div>
 
-      <div className="App-Body_Messenger">
-        <div  className="App-Body_Messenger-Title">
-          Chat
-        </div>
-        <input id="App-Body_Messenger-Input"/>
-        <button className="App-Body_Messenger-Button"
-          onClick={this.handleMessengerButtonClick}>sendMessage</button>
-        <ul>
-          {this.state.messages.map( element => (
-            <div  className="App-Body_Messenger-Item">{element}</div>
-          ))}
-        </ul>
-      </div>
+      <Messenger/>
 
       <div className="App-Body_HolyGrailLayout">
         <div className="grid">
