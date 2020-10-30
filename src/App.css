@@ -1,4 +1,7 @@
 
+:root {
+  --mainbBorderRadius:2em;
+}
 .App {
   text-align: center;
   display: block;
@@ -38,13 +41,14 @@
   /*TODOS*/
 .App-Body_Todos {
   border: 2px blue dashed;
+  border-radius: var(--mainbBorderRadius);
 }
 .App-Body_Todos-Item {
   width: 50%;
   position: relative;
   color: white;
   background-color: red;
-  border-radius: 20px;
+  border-radius: calc(var(--mainbBorderRadius)/3);
   margin: 5px;
 }
 .App-Body_Todos-Item_Text {
@@ -72,8 +76,8 @@
 }
   /*MESSANGER*/
 .App-Body_Messenger {
-
   border: 2px blue dashed;
+  border-radius: var(--mainbBorderRadius);
 }
 .App-Body_Messenger-Item {
   color: white;
