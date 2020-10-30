@@ -42,7 +42,13 @@ class Messenger extends Component {
           <input id="App-Body_Messenger-Input"/>
           <button className="App-Body_Messenger-Button"
             onClick={this.handleMessengerButtonClick}>sendMessage</button>
-
+          <div className="Messenger_UserProfile">
+          <div className="">name</div>
+          <div className="">picture</div>
+          <div className="">number</div>
+          <div className="">email</div>
+          <div className="">social</div>
+          </div>
           Conversation
           <ul>
             {this.state.messages.map( element => (
