@@ -22,32 +22,30 @@ constructor(props){
     return (
       <div className="Gallery">
 
+        <div className="Gallery_Item" style={{zIndex:"1"}}>
+          <img className="Gallery_Item-Image" src={starscape}/>
+          <div className="Gallery_Item-TextBlock"></div>
+        </div>
 
-        <img className="Gallery_Item" src={starscape}
-          style={{zIndex:"1"}}/>
+        <div className="Gallery_Item" style={{zIndex:"2"}}>
+          <img className="Gallery_Item-Image" src={springBlossoms}/>
+          <div className="Gallery_Item-TextBlock"></div>
+        </div>
 
+        <div className="Gallery_Item" style={{zIndex:"3"}}>
+          <img className="Gallery_Item-Image" src={summerClovers}/>
+          <div className="Gallery_Item-TextBlock"></div>
+        </div>
 
+        <div className="Gallery_Item" style={{zIndex:"4"}}>
+          <img className="Gallery_Item-Image" src={autumnTrees}/>
+          <div className="Gallery_Item-TextBlock"></div>
+        </div>
 
-        <img className="Gallery_Item" src={springBlossoms}
-          style={{zIndex:"2"}}/>
-
-
-
-        <img className="Gallery_Item" src={summerClovers}
-          style={{zIndex:"3"}}/>
-
-
-
-        <img className="Gallery_Item" src={autumnTrees}
-          style={{zIndex:"4"}}/>
-
-
-
-        <img className="Gallery_Item" src={winterIce}
-          style={{zIndex:"5"}}/>
-
-
-
+        <div className="Gallery_Item" style={{zIndex:"5"}}>
+          <img className="Gallery_Item-Image" src={winterIce}/>
+          <div className="Gallery_Item-TextBlock"></div>
+        </div>
 
       </div>
     );
