@@ -21,7 +21,7 @@ constructor(props){
   render() {
     return (
       <div className="Gallery"
-        style={{display:"grid", gridTemplateColumns:"6",height:"500px",width:"10500px",backgroundColor:"grey",zIndex:"0"}}
+        style={{height:"500px",width:"10500px",backgroundColor:"grey",zIndex:"0"}}
       >
 
 
