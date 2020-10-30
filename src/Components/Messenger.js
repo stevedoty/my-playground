@@ -43,11 +43,11 @@ class Messenger extends Component {
           <button className="App-Body_Messenger-Button"
             onClick={this.handleMessengerButtonClick}>sendMessage</button>
           <div className="Messenger_UserProfile">
-          <div className="">name</div>
-          <div className="">picture</div>
-          <div className="">number</div>
-          <div className="">email</div>
-          <div className="">social</div>
+          <div className="User_Name">name</div>
+          <div className="User_Picture">picture</div>
+          <div className="User_Number">number</div>
+          <div className="User_Email">email</div>
+          <div className="User_Social">social</div>
           </div>
           Conversation
           <ul>
