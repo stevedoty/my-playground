@@ -38,9 +38,16 @@
   grid-template-columns: repeat(5, 500px);
   grid-template-rows: repeat(1, 600px);
   grid-gap: 1em;
+  height:500px;
+  width:10500px;
+  background-Color:grey;
+  z-Index:0;
 }
 .Gallery_Item {
-
+  height:400px;
+  width:400px;
+  float:left;
+  display:block;
 }
   /*TODOS*/
 .App-Body_Todos {

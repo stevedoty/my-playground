@@ -20,73 +20,31 @@ constructor(props){
 
   render() {
     return (
-      <div className="Gallery"
-        style={{height:"500px",width:"10500px",backgroundColor:"grey",zIndex:"0"}}
-      >
+      <div className="Gallery">
 
 
-        <img src={starscape}
-          style={{
-            height:"400px",
-            width:"400px",
-            float:"left",
-
-            display:"block",
-
-            zIndex:"1"
-          }}/>
+        <img className="Gallery_Item" src={starscape}
+          style={{zIndex:"1"}}/>
 
 
 
-        <img src={springBlossoms}
-          style={{
-            height:"400px",
-            width:"400px",
-            float:"left",
-
-            display:"block",
-
-            zIndex:"2"
-          }}/>
+        <img className="Gallery_Item" src={springBlossoms}
+          style={{zIndex:"2"}}/>
 
 
 
-        <img src={summerClovers}
-          style={{
-            height:"400px",
-            width:"400px",
-            float:"left",
-
-            display:"block",
-
-            zIndex:"3"
-          }}/>
+        <img className="Gallery_Item" src={summerClovers}
+          style={{zIndex:"3"}}/>
 
 
 
-        <img src={autumnTrees}
-          style={{
-            height:"400px",
-            width:"400px",
-            float:"left",
-
-            display:"block",
-
-            zIndex:"4"
-          }}/>
+        <img className="Gallery_Item" src={autumnTrees}
+          style={{zIndex:"4"}}/>
 
 
 
-        <img src={winterIce}
-          style={{
-            height:"400px",
-            width:"400px",
-            float:"left",
-
-            display:"block",
-
-            zIndex:"5"
-          }}/>
+        <img className="Gallery_Item" src={winterIce}
+          style={{zIndex:"5"}}/>
 
 
 
