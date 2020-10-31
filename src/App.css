@@ -51,9 +51,9 @@
 }
 .Gallery_Item-Image {
   position: absolute;
-  transform: translate(-50%,-50%);
-  top: 50%;
-  left: 50%;
+  width: 50%;
+  top: 0%;
+  left: 0%;
   zoom: 0.3;
 }
   /*TODOS*/
