@@ -22,29 +22,29 @@ constructor(props){
     return (
       <div className="Gallery">
 
-        <div className="Gallery_Item" style={{zIndex:"1"}}>
-          <img className="Gallery_Item-Image" src={starscape}/>
-          <div className="Gallery_Item-TextBlock"></div>
+        <div className="Gallery_Item ">
+          <img className="Gallery_Item-Child Gallery_Item-Image" src={starscape}/>
+          <div className="Gallery_Item-Child Gallery_Item-TextBlock">starscape</div>
         </div>
 
-        <div className="Gallery_Item" style={{zIndex:"2"}}>
-          <img className="Gallery_Item-Image" src={springBlossoms}/>
-          <div className="Gallery_Item-TextBlock"></div>
+        <div className="Gallery_Item">
+          <img className="Gallery_Item-Child Gallery_Item-Image" src={springBlossoms}/>
+          <div className="Gallery_Item-Child Gallery_Item-TextBlock">spring blossoms</div>
         </div>
 
-        <div className="Gallery_Item" style={{zIndex:"3"}}>
-          <img className="Gallery_Item-Image" src={summerClovers}/>
-          <div className="Gallery_Item-TextBlock"></div>
+        <div className="Gallery_Item">
+          <img className="Gallery_Item-Child Gallery_Item-Image" src={summerClovers}/>
+          <div className="Gallery_Item-Child Gallery_Item-TextBlock">summer clovers</div>
         </div>
 
-        <div className="Gallery_Item" style={{zIndex:"4"}}>
-          <img className="Gallery_Item-Image" src={autumnTrees}/>
-          <div className="Gallery_Item-TextBlock"></div>
+        <div className="Gallery_Item">
+          <img className="Gallery_Item-Child Gallery_Item-Image" src={autumnTrees}/>
+          <div className="Gallery_Item-Child Gallery_Item-TextBlock">autumn trees</div>
         </div>
 
-        <div className="Gallery_Item" style={{zIndex:"5"}}>
-          <img className="Gallery_Item-Image" src={winterIce}/>
-          <div className="Gallery_Item-TextBlock"></div>
+        <div className="Gallery_Item">
+          <img className="Gallery_Item-Child Gallery_Item-Image" src={winterIce}/>
+          <div className="Gallery_Item-Child Gallery_Item-TextBlock">winter ice</div>
         </div>
 
       </div>

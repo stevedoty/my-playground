@@ -34,30 +34,32 @@
 }
 /*GALLERY*/
 .Gallery {
-  display: grid;
-  grid-template-columns: repeat(5, 500px);
-  grid-template-rows: repeat(1, 600px);
-  grid-gap: 1em;
-  height:500px;
-  width:10500px;
+  height:400px;
+  width:4000px;
   background-Color:grey;
   z-Index:0;
+  border-radius: var(--mainbBorderRadius);
 }
 .Gallery_Item {
-  height:400px;
+  text-align: center;
+  height:100%;
   width:800px;
   float:left;
   position: relative;
 }
-.Gallery_Item children {
-  width: 50%;
+.Gallery_Item-Child {
+  transform: translate(-50%,-50%);
+  position: absolute;
 }
 .Gallery_Item-Image {
-  position: absolute;
-  width: 50%;
-  top: 0%;
-  left: 0%;
-  zoom: 0.3;
+  top: 50%;
+  width: 62%;
+  left: 38%;
+}
+.Gallery_Item-TextBlock {
+  top: 50%;
+  left: 90%;
+  width: 38%;
 }
   /*TODOS*/
 .App-Body_Todos {

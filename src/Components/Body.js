@@ -13,7 +13,7 @@ class Body extends React.Component {
       todos : [
         "connect to list/server/db",
         "use phone as remote",
-        "webpack install"
+        "webpack install",
         "css => scss"
       ],
       audioFiles : [],
