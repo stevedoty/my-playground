@@ -35,14 +35,15 @@
 /*GALLERY*/
 .Gallery {
   height:400px;
-  width:4000px;
-  background-Color:grey;
+  width:4500px;
+  font-size: 150%;
+  background-color:lightgrey;
   z-Index:0;
-  border-radius: var(--mainbBorderRadius);
+  border-radius: calc(var(--mainbBorderRadius)/2);
   margin-bottom: 1em;
 }
 .Gallery_Item {
-  text-align: center;
+  text-align: right;
   height:100%;
   width:800px;
   float:left;
@@ -63,11 +64,15 @@
 .Gallery_Item-Image img {
   height: 100%;
   transform: scale(1.02);
+  z-index: 0;
 }
 .Gallery_Item-TextBlock {
-  top: 50%;
-  left: 90%;
-  width: 38%;
+  padding: 0.25em;
+  background-color:rgba(0,0,0,0.5);
+  color: white;
+  border-radius: 0.5em;
+  top: 85%;
+  left: 38%;
 }
   /*TODOS*/
 .App-Body_Todos {
