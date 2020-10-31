@@ -39,6 +39,7 @@
   background-Color:grey;
   z-Index:0;
   border-radius: var(--mainbBorderRadius);
+  margin-bottom: 1em;
 }
 .Gallery_Item {
   text-align: center;
@@ -52,9 +53,16 @@
   position: absolute;
 }
 .Gallery_Item-Image {
+  border: 1px solid white;
+  border-radius: 0.5em;
   top: 50%;
-  width: 62%;
+  height: 90%;
   left: 38%;
+  overflow: hidden;
+}
+.Gallery_Item-Image img {
+  height: 100%;
+  transform: scale(1.02);
 }
 .Gallery_Item-TextBlock {
   top: 50%;
