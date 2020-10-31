@@ -12,8 +12,9 @@ class Body extends React.Component {
     this.state = {
       todos : [
         "connect to list/server/db",
-        "hello",
-        "how are you"
+        "use phone as remote",
+        "webpack install"
+        "css => scss"
       ],
       audioFiles : [],
       videoFiles : [],
