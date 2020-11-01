@@ -20,43 +20,45 @@ constructor(props){
 
   render() {
     return (
-      <div className="Gallery">
+      <div className="Gallery_Container">
+        <div className="Gallery">
 
-        <div className="Gallery_Item ">
-          <div className="Gallery_Item-Child Gallery_Item-Image" >
-            <img src={starscape}/>
+          <div className="Gallery_Item ">
+            <div className="Gallery_Item-Child Gallery_Item-Image" >
+              <img src={starscape}/>
+            </div>
+            <div className="Gallery_Item-Child Gallery_Item-TextBlock">starscape</div>
           </div>
-          <div className="Gallery_Item-Child Gallery_Item-TextBlock">starscape</div>
-        </div>
 
-        <div className="Gallery_Item">
-          <div className="Gallery_Item-Child Gallery_Item-Image" >
-            <img src={springBlossoms}/>
+          <div className="Gallery_Item">
+            <div className="Gallery_Item-Child Gallery_Item-Image" >
+              <img src={springBlossoms}/>
+            </div>
+            <div className="Gallery_Item-Child Gallery_Item-TextBlock">spring blossoms</div>
           </div>
-          <div className="Gallery_Item-Child Gallery_Item-TextBlock">spring blossoms</div>
-        </div>
 
-        <div className="Gallery_Item">
-          <div className="Gallery_Item-Child Gallery_Item-Image" >
-            <img src={summerClovers}/>
+          <div className="Gallery_Item">
+            <div className="Gallery_Item-Child Gallery_Item-Image" >
+              <img src={summerClovers}/>
+            </div>
+            <div className="Gallery_Item-Child Gallery_Item-TextBlock">summer clovers</div>
           </div>
-          <div className="Gallery_Item-Child Gallery_Item-TextBlock">summer clovers</div>
-        </div>
 
-        <div className="Gallery_Item">
-          <div className="Gallery_Item-Child Gallery_Item-Image" >
-            <img src={autumnTrees}/>
+          <div className="Gallery_Item">
+            <div className="Gallery_Item-Child Gallery_Item-Image" >
+              <img src={autumnTrees}/>
+            </div>
+            <div className="Gallery_Item-Child Gallery_Item-TextBlock">autumn trees</div>
           </div>
-          <div className="Gallery_Item-Child Gallery_Item-TextBlock">autumn trees</div>
-        </div>
 
-        <div className="Gallery_Item">
-          <div className="Gallery_Item-Child Gallery_Item-Image" >
-            <img src={winterIce}/>
+          <div className="Gallery_Item">
+            <div className="Gallery_Item-Child Gallery_Item-Image" >
+              <img src={winterIce}/>
+            </div>
+            <div className="Gallery_Item-Child Gallery_Item-TextBlock">winter ice</div>
           </div>
-          <div className="Gallery_Item-Child Gallery_Item-TextBlock">winter ice</div>
-        </div>
 
+        </div>
       </div>
     );
   }
