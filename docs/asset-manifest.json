@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.94d50def.chunk.css",
+    "main.js": "/static/js/main.523a74cd.chunk.js",
+    "main.js.map": "/static/js/main.523a74cd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8072f1af.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8072f1af.js.map",
+    "static/css/2.8dbe6964.chunk.css": "/static/css/2.8dbe6964.chunk.css",
+    "static/js/2.94e70c9d.chunk.js": "/static/js/2.94e70c9d.chunk.js",
+    "static/js/2.94e70c9d.chunk.js.map": "/static/js/2.94e70c9d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f3193655f6a7e66e521896066e230072.js": "/precache-manifest.f3193655f6a7e66e521896066e230072.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.8dbe6964.chunk.css.map": "/static/css/2.8dbe6964.chunk.css.map",
+    "static/css/main.94d50def.chunk.css.map": "/static/css/main.94d50def.chunk.css.map",
+    "static/js/2.94e70c9d.chunk.js.LICENSE.txt": "/static/js/2.94e70c9d.chunk.js.LICENSE.txt",
+    "static/media/autumn-trees.jpg": "/static/media/autumn-trees.3e8afa31.jpg",
+    "static/media/spring-blossoms.jpg": "/static/media/spring-blossoms.d5061335.jpg",
+    "static/media/starscape.jpg": "/static/media/starscape.feaccbaa.jpg",
+    "static/media/summer-clovers.jpg": "/static/media/summer-clovers.e4fb68c0.jpg",
+    "static/media/winter-ice.jpg": "/static/media/winter-ice.8b10c36d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8072f1af.js",
+    "static/css/2.8dbe6964.chunk.css",
+    "static/js/2.94e70c9d.chunk.js",
+    "static/css/main.94d50def.chunk.css",
+    "static/js/main.523a74cd.chunk.js"
+  ]
+}
