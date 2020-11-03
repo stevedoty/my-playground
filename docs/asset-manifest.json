@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/stevedoty.github.io/my-playground/static/css/main.94d50def.chunk.css",
-    "main.js": "/stevedoty.github.io/my-playground/static/js/main.079ba0cd.chunk.js",
-    "main.js.map": "/stevedoty.github.io/my-playground/static/js/main.079ba0cd.chunk.js.map",
-    "runtime-main.js": "/stevedoty.github.io/my-playground/static/js/runtime-main.8473db8b.js",
-    "runtime-main.js.map": "/stevedoty.github.io/my-playground/static/js/runtime-main.8473db8b.js.map",
-    "static/css/2.8dbe6964.chunk.css": "/stevedoty.github.io/my-playground/static/css/2.8dbe6964.chunk.css",
-    "static/js/2.94e70c9d.chunk.js": "/stevedoty.github.io/my-playground/static/js/2.94e70c9d.chunk.js",
-    "static/js/2.94e70c9d.chunk.js.map": "/stevedoty.github.io/my-playground/static/js/2.94e70c9d.chunk.js.map",
-    "index.html": "/stevedoty.github.io/my-playground/index.html",
-    "precache-manifest.a26d488711c90c9195b597904dd8a2a5.js": "/stevedoty.github.io/my-playground/precache-manifest.a26d488711c90c9195b597904dd8a2a5.js",
-    "service-worker.js": "/stevedoty.github.io/my-playground/service-worker.js",
-    "static/css/2.8dbe6964.chunk.css.map": "/stevedoty.github.io/my-playground/static/css/2.8dbe6964.chunk.css.map",
-    "static/css/main.94d50def.chunk.css.map": "/stevedoty.github.io/my-playground/static/css/main.94d50def.chunk.css.map",
-    "static/js/2.94e70c9d.chunk.js.LICENSE.txt": "/stevedoty.github.io/my-playground/static/js/2.94e70c9d.chunk.js.LICENSE.txt",
-    "static/media/autumn-trees.jpg": "/stevedoty.github.io/my-playground/static/media/autumn-trees.3e8afa31.jpg",
-    "static/media/spring-blossoms.jpg": "/stevedoty.github.io/my-playground/static/media/spring-blossoms.d5061335.jpg",
-    "static/media/starscape.jpg": "/stevedoty.github.io/my-playground/static/media/starscape.feaccbaa.jpg",
-    "static/media/summer-clovers.jpg": "/stevedoty.github.io/my-playground/static/media/summer-clovers.e4fb68c0.jpg",
-    "static/media/winter-ice.jpg": "/stevedoty.github.io/my-playground/static/media/winter-ice.8b10c36d.jpg"
+    "main.css": "/my-playground/static/css/main.94d50def.chunk.css",
+    "main.js": "/my-playground/static/js/main.918a56b0.chunk.js",
+    "main.js.map": "/my-playground/static/js/main.918a56b0.chunk.js.map",
+    "runtime-main.js": "/my-playground/static/js/runtime-main.99241b98.js",
+    "runtime-main.js.map": "/my-playground/static/js/runtime-main.99241b98.js.map",
+    "static/css/2.8dbe6964.chunk.css": "/my-playground/static/css/2.8dbe6964.chunk.css",
+    "static/js/2.94e70c9d.chunk.js": "/my-playground/static/js/2.94e70c9d.chunk.js",
+    "static/js/2.94e70c9d.chunk.js.map": "/my-playground/static/js/2.94e70c9d.chunk.js.map",
+    "index.html": "/my-playground/index.html",
+    "precache-manifest.61960c8c659d08dde343f0b41e898940.js": "/my-playground/precache-manifest.61960c8c659d08dde343f0b41e898940.js",
+    "service-worker.js": "/my-playground/service-worker.js",
+    "static/css/2.8dbe6964.chunk.css.map": "/my-playground/static/css/2.8dbe6964.chunk.css.map",
+    "static/css/main.94d50def.chunk.css.map": "/my-playground/static/css/main.94d50def.chunk.css.map",
+    "static/js/2.94e70c9d.chunk.js.LICENSE.txt": "/my-playground/static/js/2.94e70c9d.chunk.js.LICENSE.txt",
+    "static/media/autumn-trees.jpg": "/my-playground/static/media/autumn-trees.3e8afa31.jpg",
+    "static/media/spring-blossoms.jpg": "/my-playground/static/media/spring-blossoms.d5061335.jpg",
+    "static/media/starscape.jpg": "/my-playground/static/media/starscape.feaccbaa.jpg",
+    "static/media/summer-clovers.jpg": "/my-playground/static/media/summer-clovers.e4fb68c0.jpg",
+    "static/media/winter-ice.jpg": "/my-playground/static/media/winter-ice.8b10c36d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8473db8b.js",
+    "static/js/runtime-main.99241b98.js",
     "static/css/2.8dbe6964.chunk.css",
     "static/js/2.94e70c9d.chunk.js",
     "static/css/main.94d50def.chunk.css",
-    "static/js/main.079ba0cd.chunk.js"
+    "static/js/main.918a56b0.chunk.js"
   ]
 }
