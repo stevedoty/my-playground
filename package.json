@@ -1,6 +1,6 @@
 {
   "name": "my-playground",
-  "homepage": "stevedoty.github.io/my-playground/",
+  "homepage": "https://stevedoty.github.io/my-playground/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
