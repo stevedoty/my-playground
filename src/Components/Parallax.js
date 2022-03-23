@@ -45,65 +45,59 @@ class Parallax extends Component {
           </div>
         </div>
       </div>
-
-        <div id="group2" className="parallax__group" style={this.state.parallaxStyleToggle}>
-          <div className="parallax__layer parallax__layer--base">
-            <div className="title">
-              base layer
-            </div>
-          </div>
-          <div className="parallax__layer parallax__layer--back">
-            <div className="title">
-              background layer
-            </div>
+      <div id="group2" className="parallax__group" style={this.state.parallaxStyleToggle}>
+        <div className="parallax__layer parallax__layer--base">
+          <div className="title">
+            base layer
           </div>
         </div>
-
-
-        <div id="group3" className="parallax__group" style={this.state.parallaxStyleToggle}>
-          <div className="parallax__layer parallax__layer--fore">
-            <div className="title">
-              foreground layer
-            </div>
-          </div>
-          <div className="parallax__layer parallax__layer--base">
-            <div className="title">
-              base layer
-            </div>
+        <div className="parallax__layer parallax__layer--back">
+          <div className="title">
+            background layer
           </div>
         </div>
-
-        <div id="group4" className="parallax__group" style={this.state.parallaxStyleToggle}>
-          <div className="parallax__layer parallax__layer--base">
-            <div className="title">
-              base layer
-            </div>
-          </div>
-          <div className="parallax__layer parallax__layer--back">
-            <div className="title">
-              back layer
-            </div>
-          </div>
-          <div className="parallax__layer parallax__layer--deep">
-            <div className="title">
-              deep background layer
-            </div>
+      </div>
+      <div id="group3" className="parallax__group" style={this.state.parallaxStyleToggle}>
+        <div className="parallax__layer parallax__layer--fore">
+          <div className="title">
+            foreground layer
           </div>
         </div>
-
-
-        <div id="group5" className="parallax__group" style={this.state.parallaxStyleToggle}>
-          <div className="parallax__layer parallax__layer--fore">
-            <div className="title">
-              foreground layer
-            </div>
-          </div>
-          <div className="parallax__layer parallax__layer--base">
-            <div className="title">
-              base layer
-            </div>
+        <div className="parallax__layer parallax__layer--base">
+          <div className="title">
+            base layer
           </div>
         </div>
+      </div>
+      <div id="group4" className="parallax__group" style={this.state.parallaxStyleToggle}>
+        <div className="parallax__layer parallax__layer--base">
+          <div className="title">
+            base layer
+          </div>
+        </div>
+        <div className="parallax__layer parallax__layer--back">
+          <div className="title">
+            back layer
+          </div>
+        </div>
+        <div className="parallax__layer parallax__layer--deep">
+          <div className="title">
+            deep background layer
+          </div>
+        </div>
+      </div>
+      <div id="group5" className="parallax__group" style={this.state.parallaxStyleToggle}>
+        <div className="parallax__layer parallax__layer--fore">
+          <div className="title">
+            foreground layer
+          </div>
+        </div>
+        <div className="parallax__layer parallax__layer--base">
+          <div className="title">
+            base layer
+          </div>
+        </div>
+      </div>
 
         <div id="group6" className="parallax__group" style={this.state.parallaxStyleToggle}>
           <div className="parallax__layer parallax__layer--back">
