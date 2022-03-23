@@ -15,27 +15,22 @@ let threeDimensions = {
 }
 
 class Parallax extends Component {
-
-constructor(props){
-  super(props);
-
-  this.state = {
-    parallaxStyleToggle:twoDimensions
+  constructor(props){
+    super(props);
+    this.state = {
+      parallaxStyleToggle:twoDimensions
+    }
+    this.handleViewerClick=this.handleViewerClick.bind(this)
   }
 
-  this.handleViewerClick=this.handleViewerClick.bind(this)
-}
-
-
-handleViewerClick(event){
-  event.preventDefault();
-  if(this.state.parallaxStyleToggle===twoDimensions){
-    this.setState({parallaxStyleToggle:threeDimensions})
-  }else{
-    this.setState({parallaxStyleToggle:twoDimensions})
+  handleViewerClick(event){
+    event.preventDefault();
+    if(this.state.parallaxStyleToggle===twoDimensions){
+      this.setState({parallaxStyleToggle:threeDimensions})
+    }else{
+      this.setState({parallaxStyleToggle:twoDimensions})
+    }
   }
-}
-
 
   render() {
     return (
